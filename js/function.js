@@ -26,5 +26,5 @@ const darkModeToggle = document.querySelector("#chnge"),
     },
     disableDarkMode = () => { document.body.classList.remove("dark-vertion"), localStorage.setItem("dark-vertion", null) };
 "enabled" === darkMode && enableDarkMode(), darkModeToggle.addEventListener("click", () => { "enabled" !== (darkMode = localStorage.getItem("dark-vertion")) ? enableDarkMode(): (document.body.classList.remove("dark-vertion"), localStorage.setItem("dark-vertion", null)) });
-var typed = new Typed(".type", { strings: ["Nawodya Jayalath", "Web Developer", "Flutter Developer"], typeSpeed: 100, backSpeed: 30, loop: !0 });
+var typed = new Typed(".type", { strings: ["Nawodya Jayalath", "Web Developer", "Android App Developer"], typeSpeed: 100, backSpeed: 30, loop: !0 });
 $(".toggle_btn").click(function() { $(this).toggleClass("active"), $(".mh-about .mh-about-inner p").toggleClass("active"), $(".mh-about .mh-about-inner .toggle_btn").remove(), document.getElementById("about_tag").style.marginTop = "40px" });
